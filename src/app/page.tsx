@@ -5,6 +5,7 @@ import Hero from '@/components/hero';
 import Stat from '@/components/stat';
 import Why from '@/components/why';
 import Product from '../components/product'
+import ProPage from '../components/proPage'
 const Page = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Page = () => {
      <Stat />
      <Why />
      <Product />
+     <ProPage />
     </div>
   );
 }

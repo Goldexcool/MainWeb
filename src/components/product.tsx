@@ -14,7 +14,7 @@ const Product = () => {
                     <p className='text-[19px] poppins-bold'>Products we offer on Uniclique</p>
                 </div>
 
-                <div className='flex justify-between gap-[3rem] w-full relative overflow-auto'>
+                <div className='flex justify-between gap-[3rem] w-full relative overflow-auto hide-scrollbar '>
                     {Prod.map((pro, i) => (
                         <div 
                             key={i} 
